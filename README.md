@@ -1,6 +1,6 @@
 # gdriveMounter
 ### What this does:
-This script helps mount Google Drive on most Linux distros.
+This script make rclone run at boot in the background.
 
 ### Prerequisites:
 A rclone Google Drive remote filesystem with the name "gdrive"
