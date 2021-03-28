@@ -14,9 +14,13 @@ Now you reboot, your rclone remote filesystem (gdrive) will be mounted and the p
 ### In case you need a rclone remote filesystem
 
 Run `sudo apt install rclone -y` 
+
 Run `rclone config` 
+
 Press `n` 
+
 Type in `gdrive` and press enter 
+
 Find the the number that corresponds to Google Drive, type that in and press enter 
 
 Leave client_id and client_secret blank, just press enter 
