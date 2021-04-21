@@ -8,4 +8,4 @@ bashrc=open(".bashrc","a") #open .bashrc in append mode
 bashrc.write("python3 ~/gdriveMounter/background.py")
 bashrc.close
 os.system("mkdir ~/gdriveMounter && cd ~/gdriveMounter") # Create program's directory and cd into it
-os.system("wget -qO- https://raw.githubusercontent.com/slashtechno/gdriveMounter/main/gdriveMount.py | bash")
+os.system("wget -qO- https://raw.githubusercontent.com/slashtechno/gdriveMounter/main/gdriveMount.py | python3")
